@@ -1,0 +1,6 @@
+ if(email.trim()){
+      errorsCopy.email = '';
+    }else {
+      errorsCopy.email = 'email is Required';
+      valid = false ;
+    }
